@@ -1,42 +1,4 @@
 # Industrial-Copper-Modeling_guvi
 Copper  Project
 
-1-->Importing libraries 
-
-2-->Importing dataset
-
-3-->Taking a copy of dataset
-
-4-->finding Null values and fill with mean or medien or mode
-
-5-->seperating categorical variablesand continuous variable
-
-6-->converting some columns to usable data types
-
-7-->Checking for skewness, Outliers , and treating outliers  
-
-8-->plotting box plot, distplot,violin plot to see the difference in skewness
-
-9-->checking corelation using heaat map
-
-10-->seperating categorical variables and continues variables
-
-11-->OneHot encoding for item type and status , as it is not neumeric values
-
-12-->splitting data for training and testing
-
-13-->model building for regression (ExtraTreesRegressor())
-
-14-->Fitting data, prededicting output,evaluating using metrics
-
-15-->applying the model in Gridsearchcv to find the best model parameters and predicting the output
-
-16-->Saving the model 
-
-17-->Same process done for classification and saving the model
-
-18-->Regression - find "SELLING PRIZE"
-
-19-->Classification - find the STATUS  :"WON" or "LOST"
-
-20-->Creating user interface using streamlit and displaying the model.
+l.The copper industry deals with less complex data related to sales and pricing. However, this data may suffer from issues such as skewness and noisy data, which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data. Another area where the copper industry faces challenges is in capturing the leads. A lead classification model is a system for evaluating and classifying leads based on how likely they are to become a customer . You can use the STATUS variable with WON being considered as Success and LOST being considered as Failure and remove data points other than WON, LOST STATUS values.
